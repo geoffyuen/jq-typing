@@ -53,10 +53,3 @@
 	
 }( jQuery ));
 // Plugin End
-
-// Call on 
-$('.js-typing').typing();
-
-$('#again').click(function(){
-	$('.js-typing').typing();
-});
