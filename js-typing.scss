@@ -1,0 +1,10 @@
+.js-typing-hide {
+	display: none; // Do what you want here (change color, opacity, etc)
+}
+.js-typing-cursor {
+	position: relative;
+	&:before {
+		position: absolute;
+		content: '_';
+	}
+}
